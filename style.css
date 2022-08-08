@@ -23,6 +23,7 @@ header{
 .headerLinks {
     display: flex;
     justify-content: space-evenly;
+    align-content: flex-end;
     font-style: italic;
     flex-grow: 1;
 }
@@ -32,8 +33,16 @@ header{
 .underHero {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 100px;
     padding-bottom: 50px;
+}
+
+.underHeroText{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
 }
 
 #heroMainText {
