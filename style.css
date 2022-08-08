@@ -1,0 +1,69 @@
+/* Header - Logos and Links */
+
+header{
+    background-color: #1F2937;
+}
+
+.hero{
+    display: flex;
+    color: white;
+    font-family: Roboto;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#logo {
+    font-weight: bold;
+    flex-grow: 5;
+    font-size: 24px;
+}
+
+.headerLinks {
+    display: flex;
+    justify-content: space-evenly;
+    font-style: italic;
+    flex-grow: 1;
+}
+
+/* Header - Under Logos and Links */
+
+.underHero {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    padding-bottom: 50px;
+}
+
+#heroMainText {
+    color: #f9faf8;
+    font-family: Roboto;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+#heroSecText {
+    color: #e5e7eb;
+    font-family: Roboto;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+#signUpButton {
+    font-family: Roboto;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 15px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#imageHero {
+    text-align: center;
+}
