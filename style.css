@@ -24,7 +24,6 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-content: flex-end;
-    font-style: italic;
     flex-grow: 1;
 }
 
@@ -75,4 +74,32 @@ header{
 
 #underHeroImage {
     text-align: center;
+}
+
+/* Body */
+
+#subtitle {
+    font-size: 36px;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.bodyTwo {
+    display: flex;
+    justify-content: center;
+}
+
+.illustration {
+    margin: 30px 30px;
+    border: 5px solid #3882f6;
+    border-width: medium;
+    border-radius: 25px;
+    width: 175px;
+    height: 175px;
+}
+
+.underBodyTwo {
+    display: flex;
 }
