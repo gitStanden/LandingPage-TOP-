@@ -159,8 +159,27 @@ header{
     align-items: center;
     gap: 100px;
     background-color: #3882f6;
-    padding: 10px 30px;
+    padding: 20px 90px;
+    border-radius: 5px;
 }
 
+.callToActionText {
+    display: flex;
+    flex-direction: column;
+}
 
+.callToActionTitle {
+    font-family: Roboto;
+    margin-bottom: 1px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
 
+.callToActionSubText {
+    font-family: Roboto;
+    margin-top: 1px;
+    color: white;
+    font-weight: 300;
+    font-size: small;
+}
