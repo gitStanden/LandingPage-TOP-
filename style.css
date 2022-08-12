@@ -34,6 +34,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 100px;
+    margin-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -132,6 +133,7 @@ header{
     font-weight: lighter;
     height: 150px;
     width: 800px;
+    margin-top: 100px;
 }
 
 .quoteSignature {
@@ -143,3 +145,22 @@ header{
     font-size: 26px;
     color: #1f2937;
 }
+
+/* Footer Section */
+.footerHero {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.callToAction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882f6;
+    padding: 10px 30px;
+}
+
+
+
