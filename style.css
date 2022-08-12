@@ -73,6 +73,11 @@ header{
     margin-top: 10px;
 }
 
+#signUpButton:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
 #underHeroImage {
     text-align: center;
 }
@@ -157,7 +162,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 150px;
     background-color: #3882f6;
     padding: 20px 90px;
     border-radius: 5px;
@@ -182,4 +187,21 @@ header{
     color: white;
     font-weight: 300;
     font-size: small;
+}
+
+.callToActionButton {
+    font-family: Roboto;
+    font-weight: bold;
+    padding: 4px 25px;
+    border-color: white;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.callToActionButton:hover {
+    background-color: white;
+    color: #3882f6;
 }
